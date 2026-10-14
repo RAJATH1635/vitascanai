@@ -1,0 +1,102 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Files
+.env
+.env.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Logs
+*.log
+
+# ===============================
+# Frontend
+# ===============================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# ===============================
+# Uploads & Runtime Data
+# ===============================
+backend/uploads/
+backend/storage/
+backend/results/
+
+# ===============================
+# Training Cache
+# ===============================
+**/.ipynb_checkpoints/
+
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Git
+# ===============================
+.git/
+
+# ===============================
+# Temporary Files
+# ===============================
+*.tmp
+*.bak
+*.swp
+*.vsix
+
+# Large datasets
+backend/Dementia_dataset.zip
+backend/breast_dataset.zip
+backend/malaria_dataset.zip
+
+# Generated files
+training_all_code.txt
+backend_all_code.txt
+frontend_all_code.txt
+repo_tree.txt
+repo_tree_utf8.txt
+training_scripts_only.txt
+
+# Dataset folder
+Datasets/
+
+# Datasets
+backend/*.zip
+
+# Helper scripts
+concat_*.py
+generate_phase*.py
+get_clean_tree.py
+
+# Generated reports
+*_all_code.txt
+*_tree.txt
+clean_tree.txt
+
+# Test scripts
+test_phase*.py
+# Generated evaluation archive
+backend/outputs/outputs.zip
